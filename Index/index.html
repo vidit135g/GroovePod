@@ -1,0 +1,207 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GroovePod</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+
+<body>
+  <div class="jumbotron-fluid" id="upper-jumbo">
+    
+      <div class="container" id="inner">
+        <span style="font-size:30px;cursor:pointer" id="slab" onclick="openNav()">&#9776;</span>
+        <a href="home.html" style="text-decoration: none;color: white;">
+        <div id="title">
+        <h1 class="display-2">GroovePod</h1>
+        <p class="lead">"Anywhere,Anytime"</p>
+        </div>
+        </a>
+      </div>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="">About</a>
+  <a href="signin.aspx">Sign In</a>
+  <a href="signup.aspx">Sign Up</a>
+  <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="tweet.png" alt="" class="social"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="fb.png" alt="" class="social"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="pin.png" alt="" class="social"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="insta.png" alt="" class="social"></a>
+            </li>
+        </ul>
+        
+</div>
+
+  </div>
+  <div class="container-fluid" id="ct">
+    <div id="cat-head">
+      <h1 class="display-3">CATEGORIES</h1>
+    </div>
+  </div>
+  <div class="container-fluid loading" id="cont-fluid">
+    <div class="row cat-row">
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/pop.jpg)">
+          <div class="content">
+            <img src="../Category-logo/pop-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text"><a href="browse.html" style="text-decoration:none;color:black;">Pop</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/mood.jpg)">
+          <div class="content">
+            <img src="../Category-logo/mood-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text"><a href="browse.html" style="text-decoration:none;color:black;">Mood</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/hiphop.jpg)">
+          <div class="content">
+            <img src="../Category-logo/hiphop-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text"><a href="browse.html" style="text-decoration:none;color:black;">Hip Hop</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/chill.jpg)">
+          <div class="content">
+            <img src="../Category-logo/chill-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text"><a href="browse.html" style="text-decoration:none;color:black;">Chill</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cat-row">
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/latino.jpg)">
+          <div class="content">
+            <img src="../Category-logo/latino-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Latino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/edm.jpg)">
+          <div class="content" style="width:170px">
+            <img src="../Category-logo/edm-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">EDM/Dance</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/rock.jpg)">
+          <div class="content">
+            <img src="../Category-logo/rock-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Rock</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/focus.jpg)">
+          <div class="content">
+            <img src="../Category-logo/focus-icon.png" width="60px" height="60px" alt="">
+            <h3 class="card-text">Focus</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cat-row">
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/rnb.jpg)">
+          <div class="content">
+            <img src="../Category-logo/rnb-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">RnB</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/party.jpg)">
+          <div class="content">
+            <img src="../Category-logo/party-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Party</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/work.jpg)">
+          <div class="content">
+            <img src="../Category-logo/work-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Workout</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/game.jpg)">
+          <div class="content">
+            <img src="../Category-logo/game-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Gaming</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cat-row">
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/sleep.jpg)">
+          <div class="content">
+            <img src="../Category-logo/sleep-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Sleep</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/rom.jpg)">
+          <div class="content">
+            <img src="../Category-logo/rom-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Romance</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/word.jpg)">
+          <div class="content">
+            <img src="../Category-logo/word-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Word</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card-block" style="background-image: url(../Category-Head/class.jpg)">
+          <div class="content">
+            <img src="../Category-logo/class-icon.png" width="50px" height="50px" alt="">
+            <h3 class="card-text">Classical</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
